@@ -1,0 +1,10 @@
+name: Build-and-Test
+ 
+on:
+  push:
+    branches: [ Ahmad ]
+  pull_request:
+    branches: [ Alsaffar ]
+    jobs:
+  build:
+    runs-on: ubuntu-latest
